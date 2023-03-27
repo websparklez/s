@@ -717,13 +717,17 @@ h3 {
         font-size: 1.5rem;
         padding: 5px;
     }
+     
+      .contact_link_wrapper {
+        width: auto;
+    }
     
     .contact_link hr {
         margin-top: 8px;
     }
 
     .instagram {
-        margin-left: 49vw;
+        margin-left: 48vw;
     }
     .facebook {
         margin-left: 49vw;
