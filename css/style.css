@@ -455,8 +455,8 @@ hr {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: -04%;
-        left: 59%;
+        top: -2.9em;
+        left: 31em;
     }
 
     .mainMenu li a {
@@ -504,14 +504,8 @@ hr {
 
 @media screen and (min-width: 48em) {
     .mainMenu{
-        opacity: 1;
-        transform: scale(1);
-        background-color: transparent;
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: -4%;
-        left: 60%;
+        top: -2em;
+        left: 29em;
     }
 
     .Logo {
@@ -692,7 +686,7 @@ hr {
 @media screen and (max-height: 425px) and
 (min-aspect-ratio: 7/4) {
     .mainMenu{
-        top: -10%;
-        left: 67%;
+        top: -2.1em;
+        left: 31em;
     }
 }
