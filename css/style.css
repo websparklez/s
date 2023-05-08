@@ -455,8 +455,8 @@ hr {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: -13%;
-        left: 75%;
+        top: -04%;
+        left: 59%;
     }
 
     .mainMenu li a {
@@ -686,3 +686,13 @@ hr {
 }       /* 1200px */
 
 @media screen and (min-width: 93.75em) {}      /* 1500px */
+
+* ///// MOBILE DEVICE LANDSCAPE  ////// */
+
+@media screen and (max-height: 425px) and
+(min-aspect-ratio: 7/4) {
+    .mainMenu{
+        top: -10%;
+        left: 67%;
+    }
+}
