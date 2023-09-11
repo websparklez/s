@@ -112,7 +112,7 @@ hr {
     width: 25vw;
     padding: 1em;
     background: var(--light-color-white);
-    position: absolute;
+    position: fixed;
     top: 2em;
     z-index: 999;
     opacity: 0;
