@@ -109,7 +109,8 @@ hr {
 
 /* <-------- FORM POP UP ---------> */
 #formPop {
-    width: 25vw;
+   width: 90vw;
+    height: 90vh;
     padding: 1em;
     background: var(--light-color-white);
     position: fixed;
@@ -117,9 +118,6 @@ hr {
     z-index: 999;
     opacity: 0;
     transform: scale(0);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 #formPop.activated {
