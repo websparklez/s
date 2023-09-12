@@ -118,6 +118,7 @@ hr {
     z-index: 999;
     opacity: 0;
     transform: scale(0);
+    overflow-y: scroll;
 }
 
 #formPop.activated {
